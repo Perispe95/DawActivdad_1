@@ -1,3 +1,6 @@
-window.onload = function() {
-    console.log("La página ha sido cargada.");
-};
+
+document.getElementById('vangoghImage').addEventListener('click', function() {
+
+    var textElement = document.getElementById('vangoghText');
+    textElement.classList.toggle('hidden'); 
+});

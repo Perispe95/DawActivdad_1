@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi página estática</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="2.4.css"> <!-- Enlazamos el CSS -->
 </head>
 <body>
-    <div class="container">
-        <h1>¡Bienvenido a mi página!</h1>
-        <p>Esta página fue creada y desplegada con GitHub Pages.</p>
-        <img src="images.jpg" alt="Descripción de la imagen">
+    <h1>¡Bienvenido a mi página!</h1>
+    <p>Esta página fue creada y desplegada con GitHub Pages.</p>
+
+    <div class="image-container">
+        <img src="images.jpg" alt="Imagen de Van Gogh" id="vangoghImage">
+        <p id="vangoghText" class="hidden">La noche estrellada de Van Gogh</p>
     </div>
-    <script src="js/script.js"></script>
+
+    <script src="2.4.js"></script> 
 </body>
 </html>
