@@ -1,0 +1,27 @@
+# Proyecto de Despliegue Web
+## Introducción
+Este repositorio contiene los archivos necesarios para el despliegue de una aplicación web estática utilizando **GitHub Pages**. En este proyecto aprenderás a manejar:
+- Markdown para la creación de documentación.
+- Publicación de sitios web estáticos.
+
+### Funcionalidades principales
+1. Uso de **Markdown** para el README.md.
+2. Configuración de GitHub Pages.
+3. Inclusión de estilos con CSS, imágenes y JavaScript.
+
+### Recursos útiles
+Visita la [documentación oficial de Markdown](https://www.markdownguide.org/) para aprender más sobre este lenguaje.
+
+### Ejemplo de código
+A continuación, mostramos un fragmento de HTML básico:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi página estática</title>
+</head>
+<body>
+    <h1>¡Bienvenido a mi página!</h1>
+    <p>Esta página fue creada y desplegada con GitHub Pages.</p>
+</body>
+</html>
